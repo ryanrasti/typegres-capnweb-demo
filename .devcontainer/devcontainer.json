@@ -7,5 +7,7 @@
         "onAutoForward": "openPreview"
       }
     },
-    "postCreateCommand": "git submodule update --init --recursive && npm install && npm run dev"
+    "postCreateCommand": "git submodule update --init --recursive && npm install && npm run dev",
+    "cpus": "4",
+    "memory": "16gb"
   }
