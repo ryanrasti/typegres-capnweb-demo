@@ -1,0 +1,6 @@
+[submodule "packages/typegres"]
+	path = packages/typegres
+	url = https://github.com/ryanrasti/typegres.git
+[submodule "packages/capnweb"]
+	path = packages/capnweb
+	url = https://github.com/ryanrasti/capnweb.git
