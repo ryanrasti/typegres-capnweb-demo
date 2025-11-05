@@ -8,5 +8,5 @@
         "onAutoForward": "openPreview"
       }
     },
-    "postCreateCommand": "npm install && npm run dev"
+    "postCreateCommand": "git submodule update --init --recursive && npm install && npm run dev"
   }
