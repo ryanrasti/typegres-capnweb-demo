@@ -1,6 +1,5 @@
 {
     "name": "Typegres + Cap'n Web Demo",
-    "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
     "forwardPorts": [5173],
     "portsAttributes": {
       "5173": {
