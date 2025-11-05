@@ -40,4 +40,11 @@ export default defineConfig({
       external: ["pg"],
     },
   },
+  server: {
+    port: 5173,
+    host: true,
+    allowedHosts: [
+      ".csb.app", // CodeSandbox wildcard
+    ],
+  },
 });

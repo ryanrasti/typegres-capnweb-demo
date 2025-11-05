@@ -1,9 +1,5 @@
 # Typegres & Cap'n Web Demo
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?owner=ryanrasti&repo=typegres-capnweb-demo&machine=8core)
-
-**Note on Setup**: It will take ~2 minutes for Codespaces to build the container, install all dependencies, and launch the app preview.
-
 ### The Tour
 
 1. The API
@@ -13,7 +9,7 @@
 
 2. The API client (the FE)
 
-- **File**: `src/App.tsx`
+- **File**: `src/ui/App.tsx`
 - **Why**: A visual layer on top of the API client
 
 3. **The Integration Hacks**
@@ -28,3 +24,7 @@ git submodule update --init --recursive
 npm install
 npm run
 ```
+
+Or run in codespaces: [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ryanrasti/typegres-capnweb-demo)
+
+(Use the commands above to get the demo running)
