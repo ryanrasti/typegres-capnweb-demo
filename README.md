@@ -22,7 +22,7 @@
 ```bash
 git submodule update --init --recursive
 npm install
-npm run
+npm run dev
 ```
 
 Or run in codespaces: [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ryanrasti/typegres-capnweb-demo)
